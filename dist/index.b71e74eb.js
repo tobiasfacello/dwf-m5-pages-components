@@ -514,17 +514,17 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"h7u1C":[function(require,module,exports) {
-var _router = require("./router");
-var _header = require("./components/header");
-var _footer = require("./components/footer");
-var _titulo = require("./components/titulo");
-var _subtitulo = require("./components/subtitulo");
-var _largeText = require("./components/large-text");
-var _bodyText = require("./components/body-text");
-var _textfield = require("./components/textfield");
-var _customSelect = require("./components/custom-select");
-var _outlined = require("./components/outlined");
-var _button = require("./components/button");
+var _router = require("../src/router");
+var _header = require("../src/components/header");
+var _footer = require("../src/components/footer");
+var _titulo = require("../src/components/titulo");
+var _subtitulo = require("../src/components/subtitulo");
+var _largeText = require("../src/components/large-text");
+var _bodyText = require("../src/components/body-text");
+var _textfield = require("../src/components/textfield");
+var _customSelect = require("../src/components/custom-select");
+var _outlined = require("../src/components/outlined");
+var _button = require("../src/components/button");
 function main() {
     const root = document.querySelector(".root");
     _router.initRouter(root);
@@ -541,15 +541,14 @@ function main() {
 }
 main();
 
-},{"./router":"4QFWt","./components/header":"6hCU4","./components/footer":"aoxsu","./components/titulo":"5bBp7","./components/subtitulo":"kPNzl","./components/large-text":"3zvH1","./components/body-text":"fIu2R","./components/textfield":"hZCm9","./components/custom-select":"rFYED","./components/outlined":"gGTGU","./components/button":"dZaQH"}],"4QFWt":[function(require,module,exports) {
+},{"../src/router":"4QFWt","../src/components/header":"6hCU4","../src/components/footer":"aoxsu","../src/components/titulo":"5bBp7","../src/components/subtitulo":"kPNzl","../src/components/large-text":"3zvH1","../src/components/body-text":"fIu2R","../src/components/textfield":"hZCm9","../src/components/custom-select":"rFYED","../src/components/outlined":"gGTGU","../src/components/button":"dZaQH"}],"4QFWt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "initRouter", ()=>initRouter
 );
-// import { initRootPage } from "./pages/root";
-var _welcome = require("./pages/welcome");
-var _step1 = require("./pages/step-1");
-var _thankyou = require("./pages/thankyou");
+var _welcome = require("../src/pages/welcome");
+var _step1 = require("../src/pages/step-1");
+var _thankyou = require("../src/pages/thankyou");
 const routes = [
     {
         path: /^\/w./,
@@ -585,7 +584,7 @@ function initRouter(container) {
     handleRoute(location.pathname);
 }
 
-},{"./pages/welcome":"fNSF3","./pages/step-1":"fHRFq","./pages/thankyou":"ay1CF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fNSF3":[function(require,module,exports) {
+},{"../src/pages/welcome":"fNSF3","../src/pages/step-1":"fHRFq","../src/pages/thankyou":"ay1CF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fNSF3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "initWelcomePage", ()=>initWelcomePage
