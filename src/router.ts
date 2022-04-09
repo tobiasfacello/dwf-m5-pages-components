@@ -1,6 +1,6 @@
-import { initWelcomePage } from "../src/pages/welcome";
-import { initStepOnePage } from "../src/pages/step-1";
-import { initThankYouPage } from "../src/pages/thankyou";
+import { initWelcomePage } from "./pages/welcome";
+import { initStepOnePage } from "./pages/step-1";
+import { initThankYouPage } from "./pages/thankyou";
 
 const routes = [
 	{
